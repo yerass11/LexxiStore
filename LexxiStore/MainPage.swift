@@ -54,7 +54,10 @@ struct MainPage: View {
                         Label("Профиль", systemImage: "person.crop.circle")
                     }
                 }
-        }
+        }.frame(
+            width: UIScreen.main.bounds.width ,
+            height: UIScreen.main.bounds.height
+        )
         .padding()
             
     }
